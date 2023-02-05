@@ -1,6 +1,4 @@
 import React from "react";
-import axios from "axios";
-
 
 export default function Search() {
   return (
@@ -16,6 +14,6 @@ export default function Search() {
           <input type="submit" value="Search" />
         </div>
       </form>
-    </div> 
+    </div>
   );
 }

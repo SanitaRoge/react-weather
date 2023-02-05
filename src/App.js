@@ -7,6 +7,7 @@ export default function App() {
     <div>
       <h1>Current weather</h1>
       <Search />
+
       <Weather />
     </div>
   );
