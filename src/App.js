@@ -1,22 +1,20 @@
 import "./App.css";
-import Weather from "./Weather";
 import Search from "./search";
 
 export default function App() {
   return (
     <div>
       <h1>Current weather</h1>
-      <Search />
+      <Search defaultCity="Paris" />
 
-      <Weather />
-      <div>
+      <footer>
         {" "}
         <a href="https://github.com/SanitaRoge/react-weather">
           {" "}
           Open-source coded{" "}
         </a>{" "}
         by Sanita Roge
-      </div>
+      </footer>
     </div>
   );
 }
