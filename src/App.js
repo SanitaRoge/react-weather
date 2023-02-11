@@ -3,7 +3,7 @@ import Search from "./search";
 
 export default function App() {
   return (
-    <div>
+    <div className="weatherApp">
       <h1>Current weather</h1>
       <Search defaultCity="Paris" />
 

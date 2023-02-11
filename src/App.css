@@ -39,12 +39,12 @@ a:hover {
   font-weight: bold;
   color: #98ccd3;
 }
-.weather-icon img {
+.weatherIcon img {
   width: 90px;
   margin: 10px 10px;
   position: relative;
 }
-.weather-app {
+.weatherApp {
   max-width: 800px;
   margin: 30px auto;
   padding: 20px;
@@ -62,7 +62,7 @@ a:hover {
   color: #98ccd3;
 }
 
-.feels-like {
+.feelsLike {
   color: #e58cdb;
 }
 .today {
@@ -79,7 +79,7 @@ a:hover {
   );
 }
 
-.current-location {
+.currentLocation {
   color: #e58cdb;
 }
 
@@ -93,17 +93,17 @@ a:hover {
   text-decoration: none;
   font-weight: normal;
 }
-.weather-forecast {
+.weatherForecast {
   border-radius: 30px;
   text-align: center;
   margin: 10px auto;
   padding: 15px;
   background: linear-gradient(-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
 }
-.forecast-image {
+.forecastImage {
   width: 70px;
 }
-.forecast-date {
+.forecastDate {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 500;

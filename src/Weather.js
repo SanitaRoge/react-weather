@@ -13,13 +13,12 @@ export default function Weather(props) {
           </div>
         </div>
         <div className="col-4">
-          <div className="weather-temperature">
+          <div className="weatherTemperature">
             <span className="temperature">
-              {" "}
               {Math.round(props.data.temperature)} °C
             </span>
             <br />
-            <span className="feels-like">
+            <span className="feelsLike">
               <small>Feels like </small>
               {Math.round(props.data.feelsLikeTemp)}°
             </span>
