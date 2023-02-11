@@ -5,13 +5,17 @@ export default function Search() {
     <div>
       <h2>Weather search </h2>
       <form>
-        <div>
-          <input
-            type="search"
-            className="form-control"
-            placeholder="Enter city name"
-          />
-          <input type="submit" value="Search" />
+        <div className="row">
+          <div className="col-8">
+            <input
+              type="search"
+              className="form-control"
+              placeholder="Enter city name"
+            />{" "}
+          </div>
+          <div className="col-4">
+            <input type="submit" value="Search" className="btn btn-light" />
+          </div>
         </div>
       </form>
     </div>

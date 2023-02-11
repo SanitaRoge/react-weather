@@ -9,6 +9,14 @@ export default function App() {
       <Search />
 
       <Weather />
+      <div>
+        {" "}
+        <a href="https://github.com/SanitaRoge/react-weather">
+          {" "}
+          Open-source coded{" "}
+        </a>{" "}
+        by Sanita Roge
+      </div>
     </div>
   );
 }

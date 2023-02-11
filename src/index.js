@@ -9,14 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <div>
-      {" "}
-      <a href="https://github.com/SanitaRoge/react-weather">
-        {" "}
-        Open-source coded{" "}
-      </a>{" "}
-      by Sanita Roge
-    </div>
+    
   </React.StrictMode>
 );
 
