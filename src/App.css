@@ -40,8 +40,8 @@ a:hover {
   color: #98ccd3;
 }
 .weatherIcon img {
-  width: 90px;
-  margin: 10px 10px;
+  width: 80px;
+  margin: 5px 5px;
   position: relative;
 }
 .weatherApp {

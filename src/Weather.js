@@ -6,7 +6,7 @@ export default function Weather(props) {
   return (
     <div className="today">
       <div className="row">
-        <div className="col-4">
+        <div className="col-5">
           <h2> {props.data.cityName} </h2>
           <div className="date">
             <FormattedDate date={props.data.date} />
@@ -24,11 +24,18 @@ export default function Weather(props) {
             </span>
           </div>
         </div>
-        <div className="col-4">Weather icon</div>
+        <div className="col-3">
+          {" "}
+          <img
+            src={props.data.iconURL}
+            className="weatherIcon"
+            alt={props.data.description}
+          ></img>
+        </div>
       </div>
       <div className="row">
         <span>CONDITION</span>
-        <div className="col-4">
+        <div className="col-5">
           <span className="text-capitalize"> {props.data.description} </span>
         </div>
 
@@ -36,7 +43,7 @@ export default function Weather(props) {
           <i className="fa-solid fa-wind fa-lg"></i>{" "}
           <span> {Math.round(props.data.wind)} km/h </span>
         </div>
-        <div className="col-4">
+        <div className="col-3">
           <i className="fa-solid fa-droplet fa-lg"></i>{" "}
           <span> {props.data.humidity} % </span>
         </div>
