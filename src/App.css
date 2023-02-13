@@ -101,14 +101,14 @@ a:hover {
   padding: 15px;
   background: linear-gradient(-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
 }
-.forecastImage {
+.forecastIcon {
   width: 70px;
 }
-.forecastDate {
+.forecastDay {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 500;
 }
-.forecast-temp-min {
+.forecastMinTemp {
   font-size: 14px;
 }
